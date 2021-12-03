@@ -1,5 +1,4 @@
 # https://adventofcode.com/2021/day/1
-
 import sys
 
 input = []
@@ -14,7 +13,7 @@ for item in input:
         increases += 1
     last = item
 
-print(f"Part One: {increases}")
+print(f'Part One: {increases}')
 
 # Part Two
 window = 3
@@ -27,4 +26,4 @@ while (start + window) < len(input):
         increases += 1
     start +=1
 
-print(f"Part Two: {increases}")
+print(f'Part Two: {increases}')
